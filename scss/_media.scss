@@ -1,19 +1,21 @@
 
 /* Adapts to changes in web-browser */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 710px) {
     .navbar a:not(:first-child) {
       display: none;
     }
     .navbar div.icon {
-      float: right;
+      position: absolute;
+      right: 0;
+      top: 0;
       display: block;
       margin: 20px;
       padding: 0;
     }
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 710px) {
     .navbar.responsive {position: relative;}
     .navbar.responsive .icon {
       position: absolute;

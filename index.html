@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css"/>
     <link rel="stylesheet" href="./css/nmcss.css" />
     <script src="./js/scripts.js" defer></script>
-    <script src="https://kit.fontawesome.com/4900ec6f7f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Taco Toolbar</title>
   </head>
   <body>
 
     <nav class="navbar" id="myNavbar">
       <img src="img/Logo.png" alt="Company Logo">
-      <a href="#">Home</a>
+      <a href="#" class="start">Home</a>
       <a href="#">About</a>
       <a href="#">Order</a>
       <a href="#">Contact Us</a>
@@ -22,9 +23,9 @@
       <div class="icon">
         <input id="toggle" type="checkbox" onclick="showNav()" />
           <label class="hamburger" for="toggle">
-            <div class="top"></div>
-            <div class="meat"></div>
-            <div class="bottom"></div>
+            <span class="top"></span>
+            <span class="meat"></span>
+            <span class="bottom"></span>
           </label>
         </div>
     </nav>
