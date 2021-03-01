@@ -1,0 +1,36 @@
+
+@import 'variables.scss';
+
+/* Navigational Bar Style */
+.navbar {
+    overflow: hidden;
+    background-color: $green;
+    img {
+        display: inline;
+        margin: 10px;
+    }
+    a {
+        float: left;
+        display: block;
+        color: $black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    a:hover {
+        background-color: $green;
+        color: $yellow;
+    }
+    .login {
+        background-color: $yellow;
+        height: 40px;
+        padding: 8px;
+        border-radius: 25px;
+    }
+    .icon {
+        display: none;
+        color: $yellow;
+        font-size: 40px;
+    }
+}

@@ -4,23 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/modern-css-reset/dist/reset.min.css"
-    />
-    <link rel="stylesheet" href="./style.css" />
-    <script src="./scripts.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css"/>
+    <link rel="stylesheet" href="./css/nmcss.css" />
+    <script src="./js/scripts.js" defer></script>
+    <script src="https://kit.fontawesome.com/4900ec6f7f.js" crossorigin="anonymous"></script>
     <title>Taco Toolbar</title>
   </head>
   <body>
 
-    <nav>
-      <img src="img/Logo.png" alt="logo">
+    <nav class="navbar" id="myNavbar">
+      <img src="img/Logo.png" alt="Company Logo">
       <a href="#">Home</a>
       <a href="#">About</a>
       <a href="#">Order</a>
       <a href="#">Contact Us</a>
-      <a href="#">Login</a>
+      <a href="#" class="login">Login</a>
+      <a href="#" class="icon" onclick="showNav()">&#9776;</a>
     </nav>
 
   </body>
