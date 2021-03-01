@@ -7,8 +7,3 @@ function showNav() {
       x.className = "navbar";
     }
   }
-
-function changeIcon() {
-    var icon = document.getElementById().nodeValue;
-    
-}

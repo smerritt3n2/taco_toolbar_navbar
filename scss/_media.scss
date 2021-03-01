@@ -5,10 +5,11 @@
     .navbar a:not(:first-child) {
       display: none;
     }
-    .navbar a.icon {
+    .navbar div.icon {
       float: right;
       display: block;
-      margin: 16px;
+      margin: 20px;
+      padding: 0;
     }
   }
   
