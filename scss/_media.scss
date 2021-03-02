@@ -1,6 +1,15 @@
 
 /* Adapts to changes in web-browser */
 
+@media screen and (max-width: 768px) {
+  .navbar img {
+    margin: 20px;
+    width: 240px;
+    height: 100px;
+  }
+
+}
+
 @media screen and (max-width: 710px) {
     .navbar a:not(:first-child) {
       display: none;
@@ -26,8 +35,8 @@
       float: none;
       display: block;
       text-align: center;
-      width: 110px;
-      margin: 15px auto;
+      width: 120px;
+      margin: 0px auto;
     }
     .navbar.responsive {float: none;}
     .navbar.responsive {position: relative;}
@@ -36,7 +45,13 @@
       width: 100%;
     }
     .navbar img {
-      width: 200px;
+      margin: 5px;
+      width: 240px;
       height: 100px;
+    }
+    .login {
+      margin-bottom: 25px !important;
+      height: 35px !important;
+      padding: 5px !important;
     }
   }
