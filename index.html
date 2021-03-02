@@ -8,27 +8,30 @@
     <link rel="stylesheet" href="./css/nmcss.css" />
     <script src="./js/scripts.js" defer></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <title>Taco Toolbar</title>
   </head>
   <body>
 
     <nav class="navbar" id="myNavbar">
-      <img src="img/Logo.png" alt="Company Logo">
-      <a href="#" class="start">Home</a>
-      <a href="#">About</a>
-      <a href="#">Order</a>
-      <a href="#">Contact Us</a>
-      <a href="#" class="login">Login</a>
-      <div class="icon">
-        <input id="toggle" type="checkbox" onclick="showNav()" />
-          <label class="hamburger" for="toggle">
-            <span class="top"></span>
-            <span class="meat"></span>
-            <span class="bottom"></span>
-          </label>
+      <div class="navContainer">
+        <img src="img/Logo.png" alt="Company Logo">
+        <div class="subnav">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Order</a>
+          <a href="#">Contact Us</a>
+          <a href="#" class="login">Login</a>
         </div>
+        <div class="icon">
+            <input id="toggle" type="checkbox" onclick="showNav()" />
+              <label class="hamburger" for="toggle">
+                <span class="top"></span>
+                <span class="meat"></span>
+                <span class="bottom"></span>
+              </label>
+          </div>
+      </div> 
     </nav>
 
   </body>

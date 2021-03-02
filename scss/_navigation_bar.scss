@@ -7,32 +7,33 @@
     align-items: center;
     overflow: hidden;
     background-color: $green;
+    .navContainer {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 40px;
+    }
     img {
         float: left;
-        margin: 10px 10px 10px 60px;
     }
-    a {
+    div {
+      a {
         color: $black;
-        padding: 14px 16px;
+        margin: 10px;
         text-decoration: none;
         font-size: 17px;
-        transition: all .2 ease-in-out;
-    }
-    a:hover {
-        background-color: $green;
-        color: $yellow;
-    }
-    .start {
-        margin-left: auto;
-    }
-    .login {
-        background-color: $yellow;
-        height: 30px;
-        width: 80px;
-        padding: 2px;
-        text-align: center;
-        border-radius: 25px;
-        margin-right: 60px;
+        transition: 0.2s;
+      }
+      a:hover {
+          background-color: $green;
+          color: $yellow;
+      }
+      .login {
+          background-color: $yellow;
+          border-radius: 25px;
+          padding: 8px 22px;
+      }
     }
     .login:hover {
       background-color: $black;
@@ -59,7 +60,9 @@
         width: 40px;
         height: 2px;
         margin-top: 7px;
-        transition: all 0.2s ease-in-out;
+        transition: 0.2s;
+        -webkit-transition: all 0.2s ease-in-out !important;
+        transition: all 0.2s ease-in-out !important;
     }
   }
   
@@ -68,12 +71,14 @@
   }
   
   #toggle:checked + .hamburger .top {
+    -webkit-transform: rotate(-43deg);
     transform: rotate(-43deg);
     margin-top: 10.5px;
     margin-right: 5px;
   }
   
   #toggle:checked + .hamburger .meat {
+    -webkit-transform: rotate(43deg);
     transform: rotate(43deg);
       margin-top: -3px;
       margin-right: 6px;

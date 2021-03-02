@@ -3,7 +3,6 @@
 
 @media screen and (max-width: 768px) {
   .navbar img {
-    margin: 20px;
     width: 240px;
     height: 100px;
   }
@@ -11,7 +10,11 @@
 }
 
 @media screen and (max-width: 710px) {
-    .navbar a:not(:first-child) {
+    .navbar .navContainer {
+      display: block;
+      margin: 0px;
+    }
+    .navbar div a {
       display: none;
     }
     .navbar div.icon {
@@ -31,12 +34,12 @@
       right: 0;
       top: 0;
     }
-    .navbar.responsive a {
+    .navbar.responsive div a {
       float: none;
       display: block;
       text-align: center;
-      width: 120px;
-      margin: 0px auto;
+      width: 110px;
+      margin: 15px auto;
     }
     .navbar.responsive {float: none;}
     .navbar.responsive {position: relative;}
@@ -50,8 +53,13 @@
       height: 100px;
     }
     .login {
-      margin-bottom: 25px !important;
-      height: 35px !important;
+      margin: 25px auto !important;
       padding: 5px !important;
+    }
+    .subnav {
+      position: fixed;
+      width: 100%;
+      background-color: $green;
+      top: 110px;
     }
   }
