@@ -1,20 +1,11 @@
 
 /* Adapts to changes in web-browser */
-
-@media screen and (max-width: 768px) {
-  .navbar img {
-    width: 240px;
-    height: 100px;
-  }
-
-}
-
 @media screen and (max-width: 710px) {
     .navbar .navContainer {
       display: block;
       margin: 0px;
     }
-    .navbar div a {
+    .navbar ul a {
       display: none;
     }
     .navbar div.icon {
@@ -49,8 +40,6 @@
     }
     .navbar img {
       margin: 5px;
-      width: 240px;
-      height: 100px;
     }
     .login {
       margin: 25px auto !important;
@@ -58,6 +47,7 @@
     }
     .subnav {
       position: fixed;
+      margin: 0;
       width: 100%;
       background-color: $green;
       top: 110px;
