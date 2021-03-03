@@ -2,15 +2,12 @@
 /* Adapts to changes in web-browser */
 @media screen and (max-width: 768px) {
   .navContainer {
-    margin: 0 10px !important;
+    margin: 0 24px !important;
+    img {width: 297px;}
   }
 }
 
 @media screen and (max-width: 710px) {
-    .navbar .navContainer {
-      display: block;
-      margin: 0px;
-    }
     .navbar ul a {
       display: none;
     }
@@ -18,7 +15,6 @@
       display: none;
     }
     .navbar div.icon {
-      position: absolute;
       right: 0;
       top: 0;
       display: block;
@@ -28,9 +24,9 @@
   }
   
 @media screen and (max-width: 710px) {
+    .navbar.responsive .navContainer {width: auto !important;}
     .navbar.responsive {position: relative;}
     .navbar.responsive .icon {
-      position: absolute;
       right: 0;
       top: 0;
     }
@@ -60,7 +56,7 @@
       margin: 14px 0px;
     }
     .login {
-      margin: 25px auto !important;
+      margin: 5px auto 20px auto !important;
       padding: 5px !important;
     }
     .subnav {

@@ -29,7 +29,7 @@
         font-size: 17px;
         transition: 0.2s;
       }
-      a:hover {
+      .links:hover {
           background-color: $green;
           color: $yellow;
       }
@@ -60,7 +60,7 @@
 /* Hamburger Icon */
 .hamburger {
     height: 45px;
-    margin: 10px;
+    margin: 0;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     justify-items: center;
