@@ -19,6 +19,9 @@
     }
     ul {
       padding: 0;
+      display: flex;
+      list-style-type: none;
+      align-items: center;
       a {
         color: $black;
         margin: 10px;
@@ -32,6 +35,8 @@
       }
       .login {
           background-color: $yellow;
+          width: 110px;
+          height: 40px;
           border-radius: 25px;
           padding: 8px 22px;
           margin-left: 15px;
@@ -39,7 +44,11 @@
     }
     .login:hover {
       background-color: $black;
-      color: $yellow;
+      a {
+        background-color: $black;
+        color: $yellow;
+        border-radius: 10px;
+      }
     }
     .icon {
         display: none;
