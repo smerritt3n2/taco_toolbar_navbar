@@ -1,0 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+@import 'variables.scss';
+@import 'navigation_bar.scss';
+@import 'media.scss';
